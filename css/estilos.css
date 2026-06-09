@@ -1,0 +1,32 @@
+:root{
+    /* colores */
+    --body-fondo: lightblue;
+    --body-fondo1:yellow;
+    --sombra-color:rgba(0,0,0,0.4);
+
+    /* medidas */
+    --ancho-pagina:80%;
+    --alto-presentacion:400px;
+    --border-radius:3em;
+
+    /* configuren sombra */
+    --configuracion-sombra:0 0 0.3em 0.2em;
+
+}
+
+body{
+    background:var(--body-fondo);
+}
+
+.presentacion{
+    /* sombra */
+    box-shadow: var(--configuracion-sombra) var(--sombra-color);
+    border-radius: var(--border-radius);
+    display: none;
+    height: var(--alto-presentacion);
+    /* margin */
+    margin: 2em auto 0 auto;
+    padding: 3em;
+    text-align: center;
+    width: var(--ancho-pagina);
+} 
