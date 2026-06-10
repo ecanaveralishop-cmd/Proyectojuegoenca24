@@ -17,11 +17,26 @@
 body{
     background:var(--body-fondo);
 }
+button.iniciar{
+    border-radius: 1em;
+    box-shadow:0.1em 0.1em 0.3 rgba(0,0,0,0.6);
+    cursor: pointer;
+    left: 30%;
+    font-family: arial;
+    font-size: 50px;
+    font-style: italic;
+    position: absolute;
+    padding: 1em;
+    top: 25%;
+    width: 40%;
+}
 
 .presentacion{
+    background: linear-gradient(darkblue,lightblue);
     /* sombra */
     box-shadow: var(--configuracion-sombra) var(--sombra-color);
     border-radius: var(--border-radius);
+    font-size: 40px;
     display: none;
     height: var(--alto-presentacion);
     /* margin */

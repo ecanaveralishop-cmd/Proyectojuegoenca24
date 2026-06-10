@@ -3,7 +3,7 @@
 $(".iniciar").on("click",function(){
     // animacion al boton de desvanecer en 5 segundos
     // cuando termina la animacion ejecuta funcion anonima
-    $(this).fadeOut(5000,function(){
+    $(this).fadeOut("fast",function(){
         // muestra la presentacion
         $(".presentacion").fadeIn("fast");
     });
